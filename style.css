@@ -10,6 +10,7 @@
 /* currently it is light theme but later with help of js we will make toggle button which will tranform it to dark and light mode */
 html{
     --bg: #f5f6f7;
+    --color-text: #9c9c9c;
     --banner: #333333;
     --color-shadow: -4px -2px 4px 0px #ffffff,
     4px 2px 6px 0 #dfe4ea;
@@ -25,7 +26,6 @@ html[data-theme='dark']{
     3px 3px 15px rgba(0,0,0,0.5);
     --color-inset-shadow: inset -2px -2px 6px rgba(255,255,255,0.01),
                         inset 2px 2px 6px rgba(0 ,0,0,0.8);
-                         
     
 }
 
