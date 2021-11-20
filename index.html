@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a2b3da0c65.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Music / Player</title>
+</head>
+<body>
+    <main class="player">
+        <div class="header">
+            <a href="#" class="button">
+                <i class="fas fa-bars"></i>
+                <!-- <span class="sr-only">Menu Bar</span> -->
+            </a>
+            <p>Now Playing</p>
+            <a href="#" class="button">
+                <label>
+                    <input type="checkbox" name="theme">
+                    <!-- <span class="btn sr-only">Search</span> -->
+                    <i class="fas fa-moon"></i>
+                </label>
+            </a>
+        </div>
+        <img src="images/1.jpg" alt="album" id="image" class="image">
+        <div class="information">
+            <h1 id="playlist_status"></h1>
+            <p id="playlist_artist"></p>
+        </div>
+        <div class="progress">
+            <div class="progress-time">
+                <span id="currenttimetext" class="left">00:00</span>
+                <span id="durationtimetext" class="right">00:00</span>
+            </div>
+            <div class="progress-bar">
+                <input type="range" name="" id="seekslider" class="seekslider" min="0" max="100" value="0" step="1">
+            </div>
+        </div>
+        <ul class="buttons">
+            <span id="random" class="shuffle button button-sm">
+                <i class="fas fa-random fa-sm"></i>
+            </span>
+            <span id="prevbtn" class="prev button button-md">
+                <i class="fas fa-step-backward"></i>
+            </span>
+            <span id="playpausebtn" class="playpause button button-lg">
+                <i class="fas fa-play fa-lg"></i>
+                <i class="fas fa-pause fa-lg"></i>
+            </span>
+            <span id="nextbtn" class="next button button-md">
+                <i class="fas fa-step-forward"></i>
+            </span>
+            <span id="repeat" class="loop button button-sm">
+                <i class="fas fa-circle-notch fa-sm"></i>
+            </span>
+        </ul>
+        <div class="bar"></div>
+    </main>
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
