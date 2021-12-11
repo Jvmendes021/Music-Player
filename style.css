@@ -5,9 +5,7 @@
     box-sizing: border-box;
     font-size: 14px;
 }
-/* #for white theme */
 
-/* currently it is light theme but later with help of js we will make toggle button which will tranform it to dark and light mode */
 html{
     --bg: #f5f6f7;
     --color-text: #9c9c9c;
@@ -146,7 +144,7 @@ a{
 .button-lg{
     width: 3.25rem;
     height: 3.25rem;
-    /* opacity: 1; */
+    opacity: 1; 
 }
 
 .bar{
