@@ -14,7 +14,6 @@ html{
     4px 2px 6px 0 #dfe4ea;
     --color-inset-shadow: inset -2px -2px 6px rgba(255,255,255,0.8),
                         inset 2px 2px 6px rgba(0 ,0,0,0.1);
-    
 }
 html[data-theme='dark']{
     --bg: #121212;
